@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Ajmal Khan Atta Dealer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Ajmal Khan Atta Dealer</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="dark-toggle" id="darkToggle">
+                <span class="toggle-icon">🌙</span>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" style="background: var(--light); color: var(--dark); padding: 8rem 0;">
+        <div class="hero-content">
+            <h1 data-aos="fade-up">Visit Our Shops</h1>
+            <p data-aos="fade-up" data-aos-delay="200">Peshawar & Charsadda | 7am - 6pm Daily</p>
+        </div>
+    </section>
+
+    <!-- Contact Cards with Clickable Maps -->
+    <section class="featured" style="padding: 4rem 0;">
+        <div class="container">
+            <div class="product-grid">
+                <!-- WhatsApp -->
+                <div class="product-card" data-aos="fade-up">
+                    <div class="contact-icon">📱</div>
+                    <h3>WhatsApp Orders</h3>
+                    <p>Fastest ordering<br>24/7 available</p>
+                    <a href="https://wa.me/923454445567?text=Hi%20Ajmal%20Khan!%20Ready%20to%20order%20fresh%20atta" 
+                       class="btn btn-whatsapp-large" target="_blank">Start Order</a>
+                </div>
+
+                <!-- Peshawar Shop - CLICKABLE MAP -->
+                <div class="product-card map-card" data-aos="fade-up" data-aos-delay="100"
+                     onclick="window.open('https://maps.app.goo.gl/dXTwVaDSnkpcUnsw9')">
+                    <div class="contact-icon">📍</div>
+                    <h3>Peshawar Shop</h3>
+                    <p><strong>New Rampura Gate Hashtnagri Peshawer</strong><br>Open: 7am - 6pm<br><span class="map-hint">🖱️ Click for Maps</span></p>
+                    <div class="map-preview">🗺️ Live Location</div>
+                </div>
+
+                <!-- Charsadda Shop - CLICKABLE MAP -->
+               <!-- Charsadda Shop - YOUR EXACT LOCATION -->
+<div class="product-card map-card" data-aos="fade-up" data-aos-delay="200"
+     onclick="window.open('https://maps.app.goo.gl/KPYZpLhjKfnz2DGPA')">
+    <div class="contact-icon">📍</div>
+    <h3>Charsadda Shop</h3>
+    <p><strong>Nowshehra Road<br>Opposite PTCL Exchange</strong><br>Open: 7am - 6pm<br><span class="map-hint">🖱️ Click for Maps</span></p>
+    <div class="map-preview">🗺️ Live Location</div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Order Fresh Atta?</h2>
+            <p>Direct WhatsApp or visit our shops</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="https://wa.me/923454445567?text=Hi!%20Bulk%20atta%20order" class="btn btn-whatsapp-large">💬 Bulk Order</a>
+                <a href="products.html" class="btn btn-primary">👀 View Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Ajmal Khan Atta Dealer | Peshawar & Charsadda | Fresh Daily Grinding</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
